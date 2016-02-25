@@ -1,0 +1,39 @@
+<template name="sendcoupons">
+    <h1>Användare med kuponger att inkassera</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <tr>
+                        <th>Namn</th>
+                        <th>Gatuadress</th>
+                        <th>Postnummer</th>
+                        <th>Stad</th>
+                        <th>Telefon</th>
+                        <th>Epost</th>
+                        <th>Köp</th>
+                        <th>Kuponger</th>
+                        <th></th>
+                    </tr>
+                    {{#each users}}
+                    <tr>
+                        <td>{{profile.name}}</td>
+                        <td>{{profile.address}}</td>
+                        <td>{{profile.zip}}</td>
+                        <td>{{profile.city}}</td>
+                        <td>{{profile.phone}}</td>
+                        <td>{{#each emails}}{{address}}{{/each}}</td>
+                        <td>{{profile.buys}}</td>
+                        <td>{{profile.coupons}}</td>
+                        <td>
+                            <button class="sendCouponBtn" data-user-id="{{_id}}">
+                                Skicka kupong
+                            </button>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </table>
+            </div>
+        </div>
+    </div>
+</template>

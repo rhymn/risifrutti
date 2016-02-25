@@ -1,0 +1,18 @@
+<template name="receipt">
+    <div class="container">
+        <div class="row">
+            <dl class="dl-horizontal">
+                <dt>Kund</dt>
+                <dd>{{receipt.user.profile.name}}</dd>
+                <dt>Uppladdad</dt>
+                <dd>{{receipt.created}}</dd>
+            </dl>
+            <input class="form-control" id="number" type="number" min="0" max="10"/>
+            <input class="form-control" type="hidden" value="{{receipt._id}}" id="receiptId"/>
+            <button class="btn" id="approve">Godkänn och gå till nästa</button>
+        </div>
+        <div class="row">
+            <img src="{{url}}" />
+        </div>
+    </div>
+</template>

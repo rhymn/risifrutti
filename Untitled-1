@@ -1,0 +1,1404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>*|MC:SUBJECT|*</title>
+    	
+    <link rel="stylesheet" href="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/files/gotham.css">
+    <link rel="stylesheet" href="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/files/plate.css">
+    
+    	
+   	
+<style type="text/css">
+	/*
+	@tab General
+	@section Primary styles
+	*/
+		body{
+			/*@tab General
+@section Primary styles*/font-family:Arial, sans-serif;
+			font-style:normal;
+			font-weight:400;
+			font-size:14px;
+			line-height:1.5;
+			margin:0;
+			/*@editable*/color:#666666;
+			/*@editable*/background-color:#e6e6e6;
+		}
+		p{
+			margin:0;
+			padding:0;
+			margin-bottom:0;
+		}
+		*,*:before,*:after{
+			-webkit-font-smoothing:antialiased;
+			-moz-osx-font-smoothing:grayscale;
+			-webkit-text-size-adjust:none;
+		}
+		a{
+			/*@editable*/color:#666666;
+			white-space:nowrap;
+			text-decoration:none;
+		}
+		.Button{
+			display:inline-block;
+			background-color:#dc2a00;
+			color:#fff !important;
+			padding:14px 26px;
+			margin-top:3px;
+			border-radius:4px;
+			-webkit-border-radius:4px;
+			font-size:16px;
+			font-weight:700;
+			text-decoration:none;
+		}
+		.ButtonSmall{
+			display:inline-block;
+			background-color:#dc2a00;
+			color:#fff !important;
+			margin-top:3px;
+			font-weight:700;
+			text-decoration:none;
+			text-transform:uppercase;
+			padding:3px;
+			border-radius:2px;
+			-webkit-border-radius:2px;
+			font-size:10px;
+			line-height:10px;
+		}
+		.ButtonTransparent{
+			display:inline-block;
+			background-color:transparent !important;
+			color:#f3a200 !important;
+			border:1px solid #f3a200;
+			margin-top:3px;
+			font-weight:700;
+			text-decoration:none;
+			padding:9px 18px;
+			border-radius:2px;
+			-webkit-border-radius:2px;
+			font-size:12px;
+			line-height:12px;
+		}
+		.ButtonOrange{
+			display:inline-block;
+			background-color:#f3a200;
+			color:#fff !important;
+			margin-top:3px;
+			font-weight:700;
+			text-decoration:none;
+			padding:14px 18px;
+			border-radius:4px;
+			-webkit-border-radius:4px;
+			font-size:12px;
+			line-height:12px;
+		}
+		p{
+			margin:0;
+			padding:0 0 12px;
+		}
+		h1,h2,h3,h4,h5{
+			margin:0;
+			padding:0 0 6px;
+			font-weight:normal;
+			line-height:1.3333;
+		}
+		h3{
+			font-size:17px;
+		}
+		h2{
+			font-size:24px;
+		}
+		img{
+			display:block;
+			width:100%;
+			height:auto;
+			border:0 !important;
+		}
+		#topLinksTable a{
+			color:#999;
+		}
+		.headerLinks{
+			font-size:16px;
+		}
+		.headerLinks a{
+			margin:0 7px;
+		}
+		.show_in_mobile{
+			display:none !important;
+		}
+		#headerTable a{
+			text-decoration:none;
+		}
+	/*
+	@tab Intro
+	@section CTA button
+	*/
+		.intro-button .Button{
+			/*@editable*/background-color:#dc2a00;
+		}
+		.intro-button .Button a{
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 1 - left column
+	*/
+		.asd{
+			/*@editable*/background-color:#333333;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 1 - left column
+	*/
+		.asd *{
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 1 - left column - link color
+	*/
+		.asd a{
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 1 - right column
+	*/
+		.twoCols_color1_rightcol{
+			/*@editable*/background-color:#f2f2f2;
+			/*@editable*/color:#666666;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 1 - right column - link color
+	*/
+		.twoCols_color1_rightcol a{
+			/*@editable*/color:#666666;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 2 - left column
+	*/
+		.twoCols_color2_leftcol{
+			/*@editable*/background-color:#b14e70;
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 2 - left column - link color
+	*/
+		.twoCols_color2_leftcol a{
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 2 - right column
+	*/
+		.twoCols_color2_rightcol{
+			/*@editable*/background-color:#dc2a00;
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 2 columns
+	@section Color variation 2 - right column - link color
+	*/
+		.twoCols_color2_rightcol a{
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 1 column
+	@section Color variation 1
+	*/
+		.oneCol_color1{
+			/*@editable*/background-color:#b14e70;
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 1 column
+	@section Color variation 1 - link color
+	*/
+		.oneCol_color1 a{
+			/*@editable*/color:#ffffff;
+		}
+	/*
+	@tab Module - 1 column
+	@section Color variation 2
+	*/
+		.oneCol_color2{
+			/*@editable*/background-color:#f2f2f2;
+			/*@editable*/color:#666666;
+		}
+	/*
+	@tab Module - 1 column
+	@section Color variation 2 - link color
+	*/
+		.oneCol_color2 a{
+			/*@editable*/color:#666666;
+		}
+	/*
+	@tab Social modules
+	@section Facebook
+	*/
+		.social_facebook{
+			/*@editable*/background-color:#4c66a4;
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Social modules
+	@section Facebook - link color
+	*/
+		.social_facebook a{
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Social modules
+	@section YouTube
+	*/
+		.social_youtube{
+			/*@editable*/background-color:#cd332d;
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Social modules
+	@section YouTube - link color
+	*/
+		.social_facebook a,.social_youtube a{
+			/*@editable*/color:#fff;
+			text-decoration:none;
+		}
+	/*
+	@tab Module 2 blocks image & text, bg-image
+	@section Colors
+	*/
+		.twoBlocks_img-txt_bg{
+			/*@editable*/background-color:#262626;
+			/*@editable*/color:#b2b2b2;
+		}
+		.twoBlocks_img-txt_bg .bg_image{
+			background-image:url(https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/8c1c7e90-a070-49a6-95c4-0fed3123cc1d.jpg);
+			background-position:50% 50%;
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+	/*
+	@tab Module 2 blocks image & text, bg-image
+	@section Link color
+	*/
+		.twoBlocks_img-txt_bg a{
+			/*@editable*/color:#b2b2b2;
+		}
+	/*
+	@tab Module 2 blocks image & text, no bg-image
+	@section Colors
+	*/
+		.twoBlocks_img-txt{
+			/*@editable*/background-color:#262626;
+			/*@editable*/color:#b2b2b2;
+		}
+	/*
+	@tab Module 2 blocks image & text, no bg-image
+	@section Link color
+	*/
+		.twoBlocks_img-txt a{
+			/*@editable*/color:#b2b2b2;
+		}
+	/*
+	@tab Module 2 blocks image & text, text left img right
+	@section Colors
+	*/
+		.twoBlocks_rev_img-txt{
+			/*@editable*/background-color:#262626;
+			/*@editable*/color:#b2b2b2;
+		}
+	/*
+	@tab Module 2 blocks image & text, text left img right
+	@section link color
+	*/
+		.twoBlocks_rev_img-txt a{
+			/*@editable*/color:#b2b2b2;
+		}
+	/*
+	@tab Module textblock, 1 column
+	@section Colors
+	*/
+		.textblock_1col{
+			/*@editable*/background-color:#f3a202;
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Module textblock, 1 column
+	@section link color
+	*/
+		.textblock_1col a{
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Module textblock, 2 columns
+	@section Colors - left column
+	*/
+		.textblock_2col_left{
+			/*@editable*/background-color:#333;
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Module textblock, 2 columns
+	@section Colors - left column - link color
+	*/
+		.textblock_2col_left a{
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Module textblock, 2 columns
+	@section Colors - right column
+	*/
+		.textblock_2col_right{
+			/*@editable*/background-color:#f2f2f2;
+			/*@editable*/color:#333;
+		}
+	/*
+	@tab Module textblock, 2 columns
+	@section Colors - right column - link color
+	*/
+		.textblock_2col_right a{
+			/*@editable*/color:#333;
+		}
+	/*
+	@tab Module Coupon, bg image
+	@section Styles
+	*/
+		.coupon_bg{
+			/*@editable*/background-image:url(https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/ab131fcd-167f-4def-9ed6-55498dc7292a.jpg);
+			background-position:50% 50%;
+			background-repeat:no-repeat;
+			background-size:cover;
+			/*@editable*/background-color:#bebfc0;
+			/*@editable*/color:#333333;
+		}
+	/*
+	@tab Module Coupon, bg image
+	@section Link color
+	*/
+		.coupon_bg a{
+			/*@editable*/color:#333333;
+		}
+	/*
+	@tab Module Coupon, no bg-image
+	@section Styles
+	*/
+		.coupon_no-bg{
+			/*@editable*/background-color:#bebfc0;
+			/*@editable*/color:#333333;
+		}
+	/*
+	@tab Module Coupon, no bg-image
+	@section Link color
+	*/
+		.coupon_no-bg a{
+			/*@editable*/color:#333333;
+		}
+	/*
+	@tab Module textblock with image left
+	@section Colors
+	*/
+		.textblock_img_l_text{
+			/*@editable*/background-color:#333;
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Module textblock with image left
+	@section Link color
+	*/
+		.textblock_img_l_text a{
+			/*@editable*/color:#fff;
+		}
+	/*
+	@tab Module textblock with image right
+	@section Colors
+	*/
+		.textblock_img_r_text{
+			/*@editable*/background-color:#fff;
+			/*@editable*/color:#333;
+		}
+	/*
+	@tab Module textblock with image right
+	@section Link color
+	*/
+		.textblock_img_r_text a{
+			/*@editable*/color:#333;
+		}
+		.tpl-content{
+			padding:0 !important;
+		}
+		#contentTable{
+			width:650px;
+		}
+	@media all and (max-width:650px){
+		table{
+			width:100% !important;
+		}
+
+}	@media all and (max-width:650px){
+		table td{
+			display:block;
+			width:auto !important;
+		}
+
+}	@media all and (max-width:650px){
+		img{
+			width:100%;
+			height:auto;
+		}
+
+}	@media all and (max-width:650px){
+		img.header-img{
+			width:100% !important;
+			height:auto !important;
+		}
+
+}	@media all and (max-width:650px){
+		.show_in_mobile{
+			display:block !important;
+		}
+
+}	@media all and (max-width:650px){
+		.show_in_desktop{
+			display:none !important;
+		}
+
+}	@media all and (max-width:650px){
+		.mobile-padding{
+			padding:20px !important;
+		}
+
+}	@media all and (max-width:650px){
+		.sm-logo{
+			text-align:center;
+			width:100%;
+			padding:15px 0 0 !important;
+		}
+
+}	@media all and (max-width:650px){
+		.sm-logo img{
+			position:relative;
+			z-index:1;
+			margin-bottom:-25px;
+			display:inline-block !important;
+			width:145px !important;
+			height:auto;
+		}
+
+}	@media all and (max-width:650px){
+		.intro-text{
+			padding:20px 20px 0 !important;
+		}
+
+}	@media all and (max-width:650px){
+		.intro-button{
+			padding:4px 20px 30px !important;
+		}
+
+}	@media all and (max-width:650px){
+		.intro-button a.Button{
+			display:block !important;
+			width:auto;
+			text-align:center;
+		}
+
+}	@media all and (max-width:650px){
+		.img-text-column td{
+			padding:9px !important;
+			display:table-cell !important;
+		}
+
+}	@media all and (max-width:650px){
+		.img-text-column .image-column{
+			width:83px !important;
+		}
+
+}	@media all and (max-width:650px){
+		.img-text-column .image-column-social{
+			width:50px !important;
+		}
+
+}	@media all and (max-width:650px){
+		.footer-table td{
+			text-align:center !important;
+		}
+
+}	@media all and (max-width:650px){
+		.footer-links{
+			width:auto !important;
+			display:inline-block !important;
+			margin-top:-30px;
+		}
+
+}	@media all and (max-width:650px){
+		.footer-links.bottom{
+			margin:0 !important;
+		}
+
+}	@media all and (max-width:650px){
+		.footer-links.bottom a{
+			color:#fff !important;
+			text-decoration:underline;
+		}
+
+}	@media all and (max-width:650px){
+		.footer-links td{
+			display:table-cell !important;
+		}
+
+}	@media all and (max-width:650px){
+		.footer-links img{
+			width:auto !important;
+			display:inline-block;
+		}
+
+}	@media all and (max-width:650px){
+		img.footer-link-fb,img.footer-link-linkedin,img.footer-link-youtube{
+			height:30px !important;
+			width:auto !important;
+		}
+
+}	@media all and (max-width:650px){
+		img.footer-link-twitter,img.footer-link-pinterest{
+			width:30px !important;
+		}
+
+}	@media all and (max-width:650px){
+		.Button{
+			display:block !important;
+			text-align:center !important;
+		}
+
+}	@media all and (max-width:9999px){
+		body{
+			font-family:"Gotham SSm A","Gotham SSm B","ProximaNovaRegular", Arial, sans-serif !important;
+		}
+
+}	@media all and (max-width:9999px){
+		.plateregular{
+			font-family:'plateregular',"Gotham SSm A","Gotham SSm B","ProximaNovaRegular", Arial, sans-serif !important;
+			font-weight:100 !important;
+			line-height:1.5;
+		}
+
+}</style></head>
+    
+    <body marginwidth="0" marginheight="0" offset="0">
+    	<center>
+    	
+    	
+    		<table boder="0" cellpadding="0" cellspacing="0" width="100%" id="backgroundTable">
+	    		<tr>
+		    		<td align="center" valign="top">
+    	
+    		
+			    		<table border="0" cellpadding="13" cellspacing="0" width="650" id="topLinksTable">
+				    		<tr>
+					    		<td align="center" valign="middle" class="topLinks" style="font-size:12px;color:#999999;">
+						    		
+						    		<div mc:edit="view_in_browser_link"><a href="*|ARCHIVE|*">View in the browser</a></div>
+						    		
+					    		</td>
+				    		</tr>
+			    		</table>
+			    		
+		    		</td>
+	    		</tr>
+	    		<tr>
+		    		<td align="center" valign="top">
+    		
+    		
+			    		<table border="0" cellpadding="0" cellspacing="0" width="650" id="contentTable" bgcolor="#ffffff">
+			            	<tr>
+			                	<td align="center" valign="top" class="header">
+			                		
+			                		
+			                		<table cellspacing="0" cellpadding="30" width="100%" id="headerTable">
+				                		<tr>
+					                		<td align="left" valign="middle" width="189" style="padding: 18px 30px;" class="sm-logo">
+						                		<img width="173" height="65" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/b4095df1-b3fb-49c0-871d-6de3b0c3dded.png">
+					                		</td>
+					                		<td align="right" valign="middle" style="padding: 18px 30px;" class="show_in_desktop">
+                                            
+                                            	<div class="headerLinks" mc:edit="header_links"><a href="#" target="_blank">About <span style="color:#dc2a00">&rsaquo;</span></a> <a href="#">Contact <span style="color:#dc2a00">&rsaquo;</span></a></div>
+                                                
+					                		</td>
+				                		</tr>
+			                		</table>
+			                		
+			                		
+			                	</td>
+			            	</tr>
+			            	<tr>
+				            	<td align="center" valign="top">
+					            	
+					            	<table cellspacing="0" cellpadding="0" width="100%">
+						            	<tr>
+							            	<td>
+							            		<img src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/48e1d47c-1be7-4e3b-ad44-9bca21f7c89f.jpg" alt="" border="0" style="margin: 0; padding: 0;" mc:edit="header_image">
+							            	</td>
+						            	</tr>
+					            	</table>
+					            	
+				            	</td>
+			            	</tr>
+			            	<tr>
+				            	<td align="center" valign="top">
+					            	
+					            	<table cellspacing="0" cellpadding="15" width="100%">
+						            	<tr>
+							            	<td align="left" valign="top" width="60%" style="padding: 22px 10px 29px 30px;" class="intro-text">
+								            	
+								            	<div mc:edit="intro_text">Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit.</div>
+								            	
+							            	</td>
+							            	<td align="right" valign="top" width="40%" style="padding: 22px 30px 29px 10px;" class="intro-button">
+								            	
+								            	<table cellpadding="14" cellspacing="0">
+									            	<tr>
+										            	<td style="background-color:#dc2a00;border-radius:4px;-webkit-border-radius:4px;font-size:16px;text-align: center;">
+								            	
+											            	<div mc:edit="intro_cta">
+												            	<a href="#"><span style="color:#fff;"><strong>FIND OUT MORE ›</strong></span></a>
+											            	</div>
+											            	
+										            	</td>
+									            	</tr>
+								            	</table>
+								            	
+							            	</td>
+						            	</tr>
+					            	</table>
+					            	
+				            	</td>
+			            	</tr>
+			            	<tr>
+				            	<td align="center" valign="top">
+					            	
+					            	
+					            	<!-- MODULES -->
+					            	
+					            	
+					            	<!-- module: 2 columns - color 1 -->
+					            	<div mc:repeatable="modules" mc:variant="2 columns - color 1">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%">
+							            	<tr>
+								            	<td align="left" valign="top" width="50%" class="asd">
+									            	
+									            	<table cellspacing="0" cellpadding="6" width="100%" class="img-text-column" style="padding:11px;">
+										            	<tr>
+											            	<td width="83" align="left" valign="top" class="image-column">
+												            	
+												            	<img width="83" height="100" style="margin-top:4px;" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/32e82bea-2f0a-4e8f-9234-d0084ae4f3e4.png" mc:edit="twocols_color1_leftcol_img">
+												            	
+											            	</td>
+											            	<td width="196" align="left" valign="top" class="text-column">
+												            	
+												            	<div mc:edit="twocols_color1_leftcol_txt">
+													            	<h3 class="plateregular"><span style="color:#fff;">Chicken Thai Wok Spice mix</span></h3>
+													            	<span style="color:#fff;">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</span> <strong><a href="#"><span style="color:#fff;">Try it now</span> <span style="color:#f1a127;">›</span></a></strong>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+								            	<td align="left" valign="top" width="50%" class="twoCols_color1_rightcol">
+									            	
+									            	
+									            	<table cellspacing="0" cellpadding="7" width="100%" class="img-text-column" style="padding:11px;">
+										            	<tr>
+											            	<td width="196" align="left" valign="top" style="padding-left: 20px;" class="text-column">
+												            	
+												            	<div mc:edit="twocols_color1_rightcol_txt">
+													            	<h3 class="plateregular"><span style="color:#666666;">Crispy chicken bites spice mix</span></h3>
+													            	<span style="color:#666666;">Cras mattis consectetur purus amet fermentum.</span> <strong><a href="#"><span style="color:#666666;">Try it now</span> <span style="color:#f1a127;">›</span></a></strong>
+												            	</div>
+												            	
+											            	</td>
+											            	<td width="83" align="right" valign="top" class="image-column">
+												            	
+												            	<img width="83" height="115" style="margin-top:4px;" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/77025877-141c-4887-b49a-716a0ae607f5.png" mc:edit="twocols_color1_rightcol_img">
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+								            	
+									            	
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+									            
+					            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: 2 columns - color 2 -->
+					            	<div mc:repeatable="modules" mc:variant="2 columns - color 2">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%">
+							            	<tr>
+								            	<td align="left" valign="top" width="50%" class="twoCols_color2_leftcol">
+									            	
+									            	<table cellspacing="0" cellpadding="6" width="100%" class="img-text-column" style="padding:11px;">
+										            	<tr>
+											            	<td width="83" align="left" valign="top" class="image-column">
+												            	
+												            	<img width="83" height="100" style="margin-top:4px;" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/32e82bea-2f0a-4e8f-9234-d0084ae4f3e4.png" mc:edit="twocols_color2_leftcol_img">
+												            	
+											            	</td>
+											            	<td width="196" align="left" valign="top" class="text-column">
+												            	
+												            	<div mc:edit="twocols_color2_leftcol_txt">
+													            	<h3><span style="color:#fff;">Chicken Thai Wok Spice mix</span></h3>
+													            	<span style="color:#fff;">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</span> <strong><a href="#"><span style="color:#fff;">Try it now</span> <span style="color:#f1a127;">›</span></a></strong>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+								            	<td align="left" valign="top" width="50%" class="twoCols_color2_rightcol">
+									            	
+									            	
+									            	<table cellspacing="0" cellpadding="7" width="100%" class="img-text-column" style="padding:11px;">
+										            	<tr>
+											            	<td width="196" align="left" valign="top" style="padding-left: 20px;" class="text-column">
+												            	
+												            	<div mc:edit="twocols_color2_rightcol_txt">
+													            	<h3><span style="color:#fff;">Crispy chicken bites spice mix</span></h3>
+													            	<span style="color:#fff;">Cras mattis consectetur purus amet fermentum.</span> <strong><a href="#"><span style="color:#fff;">Try it now</span> <span style="color:#f1a127;">›</span></a></strong>
+												            	</div>
+												            	
+											            	</td>
+											            	<td width="83" align="right" valign="top" class="image-column">
+												            	
+												            	<img width="83" height="115" style="margin-top:4px;" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/77025877-141c-4887-b49a-716a0ae607f5.png" mc:edit="twocols_color2_rightcol_img">
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+								            	
+									            	
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+									            
+					            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: 1 column - color 1 -->
+					            	<div mc:repeatable="modules" mc:variant="1 column - color 1">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%">
+							            	<tr>
+								            	<td align="left" valign="top" class="oneCol_color1">
+									            	
+									            	<table cellspacing="0" cellpadding="6" width="100%" class="img-text-column" style="padding:11px;">
+										            	<tr>
+											            	<td width="83" align="left" valign="top" class="image-column">
+												            	
+												            	<img width="83" height="100" style="margin-top:4px;" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/32e82bea-2f0a-4e8f-9234-d0084ae4f3e4.png" mc:edit="onecol_color1_img">
+												            	
+											            	</td>
+											            	<td width="521" align="left" valign="top" class="text-column">
+												            	
+												            	<div mc:edit="onecol_color1_txt">
+													            	<h3 class="plateregular"><span style="color:#fff;">Chicken Thai Wok Spice mix</span></h3>
+													            	<span style="color:#fff;">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</span> <strong><a href="#"><span style="color:#fff;">Try it now</span> <span style="color:#f1a127;">›</span></a></strong>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+									            
+					            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: 1 column - color 2 -->
+					            	<div mc:repeatable="modules" mc:variant="1 column - color 2">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%">
+							            	<tr>
+								            	<td align="left" valign="top" class="oneCol_color2">
+									            	
+									            	<table cellspacing="0" cellpadding="6" width="100%" class="img-text-column" style="padding:11px;">
+										            	<tr>
+											            	<td width="83" align="left" valign="top" class="image-column">
+												            	
+												            	<img width="83" height="100" style="margin-top:4px;" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/32e82bea-2f0a-4e8f-9234-d0084ae4f3e4.png" mc:edit="onecol_color2_img">
+												            	
+											            	</td>
+											            	<td width="521" align="left" valign="top" class="text-column">
+												            	
+												            	<div mc:edit="onecol_color2_txt">
+													            	<h3 class="plateregular"><span style="color:#666;">Chicken Thai Wok Spice mix</span></h3>
+													            	<span style="color:#666;">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</span> <strong><a href="#"><span style="color:#666;">Try it now</span> <span style="color:#f1a127;">›</span></a></strong>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+									            
+					            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	
+					            	<!-- module: Social module - Facebook & YouTube -->
+					            	<div mc:repeatable="modules" mc:variant="Social module - Facebook & YouTube">
+						            	
+						            	<table cellspacing="0" cellpadding="23" width="100%" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+							            	<tr>
+								            	<td align="left" valign="top" width="50%" class="social_facebook" style="padding: 11px 23px;">
+									            	
+									            	<table cellspacing="0" cellpadding="7" width="100%" class="img-text-column">
+										            	<tr>
+											            	<td width="50" align="left" valign="top" class="image-column-social">
+												            	
+												            	<img width="50" height="50" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/6aa127d9-cf78-4829-9d42-dada6cb6a94f.png" mc:edit="social_facebook_img">
+												            	
+											            	</td>
+											            	<td align="left" valign="middle" style="color:#fff;padding-right:12px;padding-top:11px;">
+												            	
+												            	<div mc:edit="social_facebook_txt">
+													            	<span style="line-height:12px;">Talk taste with us on</span><br>
+													            	<a href="#" style="font-weight: bold;font-size: 24px;">Facebook ›</a>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+								            	<td align="left" valign="top" width="50%" class="social_youtube" style="padding: 13px 23px;">
+									            	
+									            	<table cellspacing="0" cellpadding="7" width="100%" class="img-text-column">
+										            	<tr>
+											            	<td width="68" align="left" valign="top" class="image-column-social">
+												            	
+												            	<img width="68" height="50" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/0cb257b9-97ba-498f-a5fe-8792bf1d42ea.png" mc:edit="social_youtube_img">
+												            	
+											            	</td>
+											            	<td align="left" valign="middle" style="color:#fff;padding-right:12px;padding-top:11px;">
+												            	
+												            	<div mc:edit="social_youtube_txt">
+													            	<span style="line-height:12px;">See our tasty videos on</span><br>
+													            	<a href="#" style="font-weight: bold;font-size: 24px;">YouTube ›</a>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+						            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: Social module - Facebook -->
+					            	<div mc:repeatable="modules" mc:variant="Social module - Facebook">
+						            	
+						            	<table cellspacing="0" cellpadding="23" width="100%">
+							            	<tr>
+								            	<td align="left" valign="top" class="social_facebook" style="padding: 11px 23px;">
+									            	
+									            	<table cellspacing="0" cellpadding="7" width="100%" class="img-text-column">
+										            	<tr>
+											            	<td width="50" align="left" valign="top" class="image-column-social">
+												            	
+												            	<img width="50" height="50" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/6aa127d9-cf78-4829-9d42-dada6cb6a94f.png" mc:edit="social_facebook_1_img">
+												            	
+											            	</td>
+											            	<td align="left" valign="middle" style="color:#fff;padding-right:12px;padding-top:11px;">
+												            	
+												            	<div mc:edit="social_facebook_1_txt">
+													            	<span style="line-height:12px;">Talk taste with us on</span><br>
+													            	<a href="#" style="font-weight: bold;font-size: 24px;">Facebook ›</a>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+						            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	
+					            	<!-- module: Social module - YouTube -->
+					            	<div mc:repeatable="modules" mc:variant="Social module - YouTube">
+						            	
+						            	<table cellspacing="0" cellpadding="23" width="100%">
+							            	<tr>
+								            	<td align="left" valign="top" class="social_youtube" style="padding: 11px 23px;">
+									            	
+									            	<table cellspacing="0" cellpadding="7" width="100%" class="img-text-column">
+										            	<tr>
+											            	<td width="50" align="left" valign="top" class="image-column-social">
+												            	
+												            	<img width="68" height="50" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/0cb257b9-97ba-498f-a5fe-8792bf1d42ea.png" mc:edit="social_youtube_1_img">
+												            	
+											            	</td>
+											            	<td align="left" valign="middle" style="color:#fff;padding-right:12px;padding-top:11px;">
+												            	
+												            	<div mc:edit="social_youtube_1_txt">
+													            	<span style="line-height:12px;">See our tasty videos on</span><br>
+													            	<a href="#" style="font-weight: bold;font-size: 24px;">YouTube ›</a>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+						            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	
+					            	
+					            	<!-- module: 2 blocks image & text, bg-image -->
+					            	<div mc:repeatable="modules" mc:variant="2 blocks image & text, bg-image">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%" class="twoBlocks_img-txt_bg">
+								    		<tr>
+									    		<td width="50%" align="center" valign="top">
+										    		<img width="325" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/81df018d-1fa6-40fe-9a97-52e786f62c4b.jpg" mc:edit="twoblocks_imgtxt_bg_img">
+									    		</td>
+									    		<td width="50%" align="left" valign="middle" class="bg_image">
+										    		
+										    		<table cellpadding="30">
+											    		<tr>
+												    		<td style="padding: 0px 30px;color:#b2b2b2;" class="mobile-padding">
+													    		
+													    		<div mc:edit="twoblocks_imgtxt_bg_txt">
+														    		
+																	<span class="ButtonSmall">RECIPE</span>
+																	<h2 style="color:#fff;padding:0;">Crispy Fish Taco</h2>
+																	<p style="padding: 0 0 8px;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>
+																	<a href="#" class="ButtonTransparent">MAKE IT NOW</a>
+																	
+													    		</div>
+																
+												    		</td>
+											    		</tr>
+										    		</table>
+										    		
+									    		</td>
+								    		</tr>
+							    		</table>
+							    		
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: 2 blocks image & text -->
+					            	<div mc:repeatable="modules" mc:variant="2 blocks image & text, no bg-image">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%" class="twoBlocks_img-txt">
+								    		<tr>
+									    		<td width="50%" align="center" valign="top">
+										    		<img width="325" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/81df018d-1fa6-40fe-9a97-52e786f62c4b.jpg" mc:edit="twoblocks_imgtxt_img">
+									    		</td>
+									    		<td width="50%" align="left" valign="middle">
+										    		
+										    		<table cellpadding="30">
+											    		<tr>
+												    		<td style="padding: 0px 30px;color:#b2b2b2;" class="mobile-padding">
+													    		
+													    		<div mc:edit="twoblocks_imgtxt_txt">
+														    		
+																	<span class="Button" style="padding: 3px; border-radius: 2px; -webkit-border-radius: 2px; font-size: 10px; line-height: 10px;">RECIPE</span>
+																	<h2 style="color:#fff;padding:0;">Crispy Fish Taco</h2>
+																	<p style="padding: 0 0 8px;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>
+																	<a href="#" class="ButtonTransparent">MAKE IT NOW</a>
+																	
+													    		</div>
+																
+												    		</td>
+											    		</tr>
+										    		</table>
+										    		
+									    		</td>
+								    		</tr>
+							    		</table>
+							    		
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	<!-- module: 2 blocks image & text, text left img right -->
+					            	<div mc:repeatable="modules" mc:variant="2 blocks image & text, text left img right">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%" class="twoBlocks_rev_img-txt">
+								    		<tr>
+									    		<td width="50%" align="left" valign="middle">
+										    		
+										    		<table cellpadding="30">
+											    		<tr>
+												    		<td style="padding: 0px 30px;color:#b2b2b2;" class="mobile-padding">
+													    		
+													    		<div mc:edit="twoblocks_imgtxt_txt">
+														    		
+																	<span class="Button" style="padding: 3px; border-radius: 2px; -webkit-border-radius: 2px; font-size: 10px; line-height: 10px;">RECIPE</span>
+																	<h2 style="color:#fff;padding:0;">Crispy Fish Taco</h2>
+																	<p style="padding: 0 0 8px;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>
+																	<a href="#" class="ButtonTransparent">MAKE IT NOW</a>
+																	
+													    		</div>
+																
+												    		</td>
+											    		</tr>
+										    		</table>
+										    		
+									    		</td>
+									    		<td width="50%" align="center" valign="top">
+										    		<img width="325" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/81df018d-1fa6-40fe-9a97-52e786f62c4b.jpg" mc:edit="twoblocks_imgtxt_img">
+									    		</td>
+								    		</tr>
+							    		</table>
+							    		
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: Textblock, 1 column -->
+					            	<div mc:repeatable="modules" mc:variant="Textblock, 1 column">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%" class="textblock_1col">
+							            	<tr>
+								            	<td align="left" valign="middle">
+									            	
+									            	<table cellpadding="30" cellspacing="0" width="100%">
+										            	<tr>
+											            	<td class="mobile-padding" style="color:#fff;">
+												            	
+												            	<div mc:edit="textblock_1col_text">
+													            	<h2>Vad blir det för mat?</h2>
+													            	<a href="#">Kolla in våra recept <span style="color:#dc2a00;">&rsaquo;</span></a>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+						            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	
+					            	
+					            	<!-- module: Textblock, 2 columns -->
+					            	<div mc:repeatable="modules" mc:variant="Textblock, 2 columns">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%">
+							            	<tr>
+								            	<td width="50%" align="left" valign="middle" class="textblock_2col_left">
+									            	
+									            	<table width="100%" cellspacing="0" cellpadding="30">
+										            	<tr>
+											            	<td class="mobile-padding" style="color:#fff;">
+												            	<div mc:edit="textblock_2col_left_text">
+													            	<h2>Vad blir det för mat?</h2>
+													            	<a href="#">Kolla in våra recept <span style="color:#f1a127;">&rsaquo;</span></a>
+												            	</div>
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+								            	<td width="50%" align="left" valign="middle" class="textblock_2col_right">
+									            	
+									            	<table width="100%" cellspacing="0" cellpadding="30">
+										            	<tr>
+											            	<td class="mobile-padding" style="color:#333;">
+												            	<div mc:edit="textblock_2col_right_text">
+													            	<h2>Vad blir det för mat?</h2>
+													            	<a href="#">Kolla in våra recept <span style="color:#f1a127;">&rsaquo;</span></a>
+												            	</div>
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+						            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	
+					            	<!-- module: Coupon, bg-image -->
+					            	<div mc:repeatable="modules" mc:variant="Coupon, bg-image">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%" class="coupon_bg">
+								    		<tr>
+									    		<td width="50%" align="center" valign="middle">
+										    		
+										    		<table cellspacing="0" cellpadding="20">
+											    		<tr>
+												    		<td align="center" valign="middle">
+																<img width="325" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/624eab5c-0d97-4fc9-b3ed-56c6bdd4ae8f.png" mc:edit="coupon_img">
+												    		</td>
+											    		</tr>
+										    		</table>
+										    		
+									    		</td>
+									    		<td width="50%" align="left" valign="middle">
+										    		
+										    		<table cellpadding="30">
+											    		<tr>
+												    		<td class="mobile-padding" style="color:#333;">
+													    		
+													    		<div mc:edit="coupon_txt">
+														    		
+																	<span class="ButtonSmall">COUPON</span>
+																	<h2 style="padding:0;">€5 off Taco Spice Mix</h2>
+																	<p style="padding: 0 0 8px;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>
+																	<a href="#" class="ButtonOrange">DOWNLOAD NOW</a>
+																	
+													    		</div>
+																
+												    		</td>
+											    		</tr>
+										    		</table>
+										    		
+									    		</td>
+								    		</tr>
+							    		</table>
+							    		
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	
+					            	<!-- module: Coupon, no bg-image -->
+					            	<div mc:repeatable="modules" mc:variant="Coupon, no bg-image">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%" class="coupon_no-bg">
+								    		<tr>
+									    		<td width="50%" align="center" valign="middle">
+										    		
+										    		<table cellspacing="0" cellpadding="20">
+											    		<tr>
+												    		<td align="center" valign="middle">
+																<img width="325" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/624eab5c-0d97-4fc9-b3ed-56c6bdd4ae8f.png" mc:edit="coupon_nobg_img">
+												    		</td>
+											    		</tr>
+										    		</table>
+										    		
+									    		</td>
+									    		<td width="50%" align="left" valign="middle">
+										    		
+										    		<table cellpadding="30">
+											    		<tr>
+												    		<td class="mobile-padding" style="color:#333;">
+													    		
+													    		<div mc:edit="coupon_nobg_txt">
+														    		
+																	<span class="ButtonSmall">COUPON</span>
+																	<h2 style="padding:0;">€5 off Taco Spice Mix</h2>
+																	<p style="padding: 0 0 8px;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>
+																	<a href="#" class="ButtonOrange">DOWNLOAD NOW</a>
+																	
+													    		</div>
+																
+												    		</td>
+											    		</tr>
+										    		</table>
+										    		
+									    		</td>
+								    		</tr>
+							    		</table>
+							    		
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: Textblock with image left -->
+					            	<div mc:repeatable="modules" mc:variant="Textblock with image left">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%">
+							            	<tr>
+								            	<td align="center" valign="middle" width="50%" class="textblock_img_l">
+									            	
+													<img width="325" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/e019dc70-4d8e-4118-a789-8a68b34e7f64.jpg" mc:edit="textblock_img_l">
+													
+								            	</td>
+									            <td align="left" valign="middle" width="50%" class="textblock_img_l_text">
+										            
+										            
+									            	<table cellpadding="30" cellspacing="0" width="100%">
+										            	<tr>
+											            	<td width="50%" class="mobile-padding" style="color:#fff;">
+												            	
+												            	<div mc:edit="textblock_img_l_text">
+													            	<h2>Vad blir det för mat?</h2>
+													            	<a href="#">Kolla in våra recept <span style="color:#f1a127;">&rsaquo;</span></a>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+							            	</tr>
+						            	</table>
+						            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	<!-- module: Textblock with image right -->
+					            	<div mc:repeatable="modules" mc:variant="Textblock with image right">
+						            	
+						            	<table cellspacing="0" cellpadding="0" width="100%">
+							            	<tr>
+									            <td align="left" valign="middle" width="50%" class="textblock_img_r_text">
+										            
+									            	<table cellpadding="30" cellspacing="0" width="100%">
+										            	<tr>
+											            	<td width="50%" class="mobile-padding" style="color:#333;">
+												            	
+												            	<div mc:edit="textblock_img_r_text">
+													            	<h2>Vad blir det för mat?</h2>
+													            	<a href="#">Kolla in våra recept <span style="color:#f1a127;">&rsaquo;</span></a>
+												            	</div>
+												            	
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</td>
+								            	<td align="center" valign="middle" width="50%" class="textblock_img_r">
+									            	
+													<img width="325" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/e019dc70-4d8e-4118-a789-8a68b34e7f64.jpg" mc:edit="textblock_img_r">
+													
+								            	</td>
+							            	</tr>
+						            	</table>
+						            	
+					            	</div>
+					            	<!-- end module -->
+					            	
+					            	
+					            	
+					            	<!-- END MODULES -->
+					            	
+					            	
+						           
+			    		
+				            	</td>
+			            	</tr>
+			            	<tr>
+				            	<td align="center" valign="top">
+					            	
+					            	<table cellspacing="0" cellpadding="30" width="100%" bgcolor="#000000" class="footer-table">
+						            	<tr>
+							            	<td width="50%" align="left" valign="bottom" style="padding-top:18px;" class="mobile-padding">
+								            	
+								            	<p style="padding: 0;color: #fff;font-size: 12px;line-height: 2;" mc:edit="footer_leftcol">
+									            	<a style="color:#fff;text-decoration:underline;" href="#">About Santa Maria</a>  |  <a style="color:#fff;text-decoration:underline;" href="#">Contact us</a><br>
+									            	<a style="color:#fff;text-decoration:underline;" href="#">Unsubscribe</a>  |  <a style="color:#fff;text-decoration:underline;" href="#">Edit subscription</a><br>
+									            	© Santa Maria, Sweden, All rights reserved
+												</p>
+												
+							            	</td>
+							            	<td width="50%" align="right" valign="bottom" style="padding-top:18px;padding-right:20px;" class="mobile-padding">
+								            	
+								            	
+								            	<div mc:hideable mc:edit="footer_social">
+										            	
+									            	<table cellspacing="0" cellpadding="10" class="footer-links">
+										            	<tr>
+											            	<td colspan="5" align="left" style="padding-bottom:0;">
+											            		<span class="plateregular" style="color: #fff;font-size: 12px;line-height: 2;">VISIT US ON</span>
+											            	</td>
+										            	</tr>
+										            	<tr>
+											            	<td width="16">
+												            	<a href="#">
+													            	<img class="footer-link-fb" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/ffe5d2e6-8366-44e1-b9f0-c37eaaffc4dd.png" width="16" height="30">
+												            	</a>
+											            	</td>
+											            	<td width="30">
+												            	<a href="#">
+													            	<img class="footer-link-twitter" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/23709290-4b72-4394-a583-0fb79d736978.png" width="30" height="25">
+												            	</a>
+											            	</td>
+											            	<td width="30">
+												            	<a href="#">
+													            	<img class="footer-link-pinterest" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/006b8e2f-f5cb-4104-94f4-fe2158b97ea4.png" width="30" height="30">
+												            	</a> 
+											            	</td>
+											            	<td width="43">
+												            	<a href="#">
+													            	<img class="footer-link-youtube" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/e376c4de-7c33-48e5-8c79-210b79a24069.png" width="43" height="30">
+												            	</a> 
+											            	</td>
+											            	<td width="30">
+												            	<a href="#">
+													            	<img class="footer-link-linkedin" src="https://gallery.mailchimp.com/a3afe7d165da81bfbfbabc0a5/images/cffce91c-110a-4a8c-b42a-9e8603c69153.png" width="30" height="30">
+												            	</a> 
+											            	</td>
+										            	</tr>
+									            	</table>
+									            	
+								            	</div>
+								            	
+							            	</td>
+						            	</tr>
+					            	</table>
+					            	
+					            	
+				            	</td>
+			            	</tr>
+			    		</table>
+			    		
+			    		
+		    		</td>
+	    		</tr>
+    		</table>
+    		
+    	
+    	</center>
+    </body>
+</html>

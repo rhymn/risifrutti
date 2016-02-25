@@ -1,0 +1,93 @@
+<template name="upload">
+    <div class="row">
+        <div class="form col-md-6 col-md-offset-3">
+            {{percentReady}}
+            <br/><br/><br/>
+            
+            <span class="btn btn-default btn-file btn-block btn-lg dark-blue">
+                Ladda upp nytt kvitto &nbsp; <i class="glyphicon glyphicon-camera"></i> 
+                
+                <input type="file" name="receipt" id="fileInput" />
+            </span>
+             
+            {{#each images}} 
+                {{#unless this.isUploaded}} 
+                    {{> FS.UploadProgressBar bootstrap=true}} 
+                {{/unless}} 
+            {{/each}}
+        </div>
+    </div>
+</template>
+
+<template name="progressbar">
+    <div id="progress-bar">
+        <div id="ready-wrapper">
+            <div id="ready">
+            </div>
+        </div>
+    </div>
+</template>
+<template name="profile">
+    {{>header}}
+    <div id="main">
+        <div class="container" style="padding-top:50px">
+            <div class="row">
+                <h1 style="padding-left:15px">Samla dina kvitton</h1>
+                <br/>
+                <br/>
+            </div>
+            <div class="row" id="profile-top">
+                <div class="col-md-6 col-md-offset-1">
+                    <img src="kort.png" />
+                </div>
+
+                <div class="col-md-5" id="info-text">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            {{>progressbar}}
+                        </div>
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <div class="dark-blue">
+                                <h3>Du har {{numOfBuys}} kvitton</h3></div>
+                            <h2>{{name}}</h2>
+                            <p> Du har samlat in {{numOfBuys}} risifrutti kvitton. När du har fått 25 st så skickar vi dig
+                                ett presentkort på Intersport.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{>upload}}
+            <div style="height: 50px"></div>
+            {{>receipts}}
+        </div>
+    {{>footer}}
+    </div>
+</template>
+
+<template name="receipts">
+    <div class="row">
+        <div class="col-md-12">
+            {{#if receipts.count}}
+                <h3>Dina kvitton</h3>
+            {{/if}}
+        </div>
+    </div>
+    <div id="receipts" class="row">
+        <div class="col-md-12">
+            {{#each receipts}}
+            <div class="receipt">
+                {{#if checked}}
+                <div class="alert-success badge pull-right">
+                {{numberOfBuys}} <i class="glyphicon glyphicon-check"></i>
+                </div>
+                {{else}}
+                <div class="alert-warning badge">
+                    <i class="glyphicon glyphicon-eye-open"></i>
+                </div>
+                {{/if}}
+                <img src="{{url}}" />
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</template>

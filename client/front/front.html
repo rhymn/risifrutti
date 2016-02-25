@@ -1,0 +1,39 @@
+
+
+<template name="header">
+    <div id="header-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="/">
+                        <img src="logo.png" id="logo"/>
+                    </a>
+                    {{#if loggedIn}} 
+                        <a href="#" class="pull-right" id="logout">Logga ut</a>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="footer">
+    <div id="footer">
+        <div id="red-footer">
+            <img src="red-footer.png"/>
+            <div id="red-block"></div>
+        </div>
+        <div id="white-footer">
+            <div class="container" >
+                <div class="row"> 
+                    <a href="/fragor-och-svar#villkor">Villkor</a>
+                    <a href="/fragor-och-svar#kontakt">Kontakt</a>
+                    <a href="/fragor-och-svar">Frågor och svar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+
+
