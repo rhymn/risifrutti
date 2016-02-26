@@ -23,7 +23,7 @@ Template.approve.events({
             }
         });
         
-        if(totalBuys > 25) {
+        if(sendCoupon) {
             Meteor.users.update(receipt.user()._id, {
                 $set: {
                     "profile.sendCoupon": true,

@@ -27,7 +27,8 @@ Meteor.users.allow({
         }
     },
     update: function(userId, doc, fieldNames, modifier) {
-        if (Meteor.users.findOne(userId).isAdmin !== true) {
+       
+        if (Meteor.users.findOne(userId).profile.isAdmin !== true) {
             return false;
         }
         
