@@ -23,7 +23,7 @@ var numOfBuys = function() {
 }
 
 Template.upload.helpers({
-    images: ()=> Images.find()
+    images: ()=> Images.find(),
 })
 Template.upload.onRendered(function() {
     Tracker.autorun(function() {
@@ -43,5 +43,6 @@ Template.receipts.helpers({
 
 Template.profile.helpers({
     name: () => Meteor.user().profile.name,
-    numOfBuys: numOfBuys
+    numOfBuys: numOfBuys,
+    user: () => Meteor.user()
 })

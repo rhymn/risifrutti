@@ -44,7 +44,6 @@ Meteor.publish('doubleZips', function() {
     )
     .pluck('_id')
     .value();
-    console.log(usersWithNonUniqueZips);
     return Meteor.users.find({
         _id: {
             $in: usersWithNonUniqueZips

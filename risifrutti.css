@@ -88,6 +88,11 @@ display: inline-block;
     margin:0px;
     padding-bottom: 50px;
 }
+
+#steps p {
+    font-weight: normal;
+    font-size: 12px;
+}
 input {
     margin-bottom: 15px;
     font-family: Helvetica, Arial, sans-serif;
@@ -241,4 +246,9 @@ table {
     font-family: Helvetica, Arial, sans-serif;
     position: relative;
     top:20px;
+}
+
+#congrats {
+    text-align: center;
+    margin-bottom: 50px;
 }
