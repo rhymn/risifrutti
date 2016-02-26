@@ -27,13 +27,12 @@ Meteor.users.allow({
         }
     },
     update: function(userId, doc, fieldNames, modifier) {
-       
         if (Meteor.users.findOne(userId).profile.isAdmin !== true) {
             return false;
         }
-        
+
         var allowedFields = ['profile.buys','profile.sendCoupon'];
-        return fieldNames.every(
+        return _.keys(modifier['$set']).every(
             (name)=> allowedFields.indexOf(name) !== -1
         );
     },
