@@ -31,7 +31,7 @@ Meteor.users.allow({
             return false;
         }
 
-        var allowedFields = ['profile.buys','profile.sendCoupon'];
+        var allowedFields = ['profile.buys','profile.sendCoupon','profile.coupons'];
         return _.keys(modifier['$set']).every(
             (name)=> allowedFields.indexOf(name) !== -1
         );
