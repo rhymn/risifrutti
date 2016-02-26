@@ -6,21 +6,13 @@ Meteor.startup(function(){
         return "Återställ lösenord!";
     };
         
-    /*
-        Accounts.emailTemplates.resetPassword.text = function (user, url) {
-            
-            // Can we tell meteor about hashbangs?
-            var url = getProperUrl(url);        
-
-            // user.profile could contain "invited by"...
-
-            return "Hej " + user.profile.firstname + " och välkommen till ePsy!\n\n"
-                + " Klicka på länken för att verifiera din e-post och sätta ett lösenord.\n\n"
-                + " Vänliga hälsningar.\n"
-                + " - Teamet bakom ePsy.\n\n"
-                + url;        
-            
-        };
-    */
-    
+    Accounts.emailTemplates.resetPassword.text = function (user, url) {
+        
+        return "Hej " + user.profile.name + "!"
+            + " Klicka på länken för att sätta ett nytt lösenord.\n\n"
+            + " Vänliga hälsningar,\n"
+            + " - Risifruttiteamet\n\n"
+            + url;        
+        
+    };    
 });
