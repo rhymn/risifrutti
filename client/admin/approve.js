@@ -9,7 +9,7 @@ Template.approve.events({
         var buys = parseInt($("#buys").val());
         
         var totalBuys = receipt.user().profile.buys + buys;
-        var sendCoupon = (totalBuys - 25*receipt.user().profile.coupons) >= 0;
+        var sendCoupon = (totalBuys - 25*(receipt.user().profile.coupons + 1)) >= 0;
         Receipts.update(receiptId, {
             $set: {
                 checked: true,
