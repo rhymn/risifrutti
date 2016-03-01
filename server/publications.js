@@ -16,6 +16,10 @@ Meteor.smartPublish('myReceipts', function() {
 
 
 Meteor.smartPublish('approve', function() {
+    var user = Meteor.users.findOne(this.userId);
+    if (!user.profile.isAdmin) {
+        throw "not authorized";
+    } 
     this.addDependency(
         'receipts', 'fileId', function(receipt) {
             return Images.find(receipt.fileId);
@@ -32,10 +36,20 @@ Meteor.smartPublish('approve', function() {
 })
 
 Meteor.publish('usersWithCoupons', function() {
+    var user = Meteor.users.findOne(this.userId);
+    if (!user.profile.isAdmin) {
+        throw "not authorized";
+    }
+    
     return Meteor.users.find({"profile.sendCoupon":true});
 })
 
 Meteor.publish('doubleZips', function() {
+    var user = Meteor.users.findOne(this.userId);
+    if (!user.profile.isAdmin) {
+        throw "not authorized";
+    }
+    
     var users = Meteor.users.find({}).fetch();
     var usersWithNonUniqueZips = _.chain(users)
     .uniq(
