@@ -61,6 +61,9 @@
                             <h2>{{name}}</h2>
                             <p> Du har samlat in {{numOfBuys}} Risifrutti. När du har fått 25 st så skickar vi dig
                                 ett presentkort på Intersport.</p>
+                            {{#if user.profile.coupons}}
+                            <p>Du har samlat ihop till {{user.profile.coupons}} kuponger av 3 möjliga</p>
+                            {{/if}}
                         </div>
                     </div>
                 </div>
