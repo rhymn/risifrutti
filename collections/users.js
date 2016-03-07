@@ -1,6 +1,10 @@
 Meteor.users.helpers({
+    numberOfCouponsToSend: function() {
+        return Math.min(3, Math.floor(this.profile.buys / 25)) - this.profile.coupons;
+    }
+});
 
-})
+
 
 Meteor.users.allow({
     insert: function (userId, doc) {
@@ -37,4 +41,24 @@ Meteor.users.allow({
         );
     },
     remove: () => false
+})
+
+Meteor.methods({
+    resetCoupons: function() {
+        let users = Meteor.users.find({ "profile.sendCoupon": true }).fetch();
+        users.forEach(function(user) {
+            Meteor.users.update(
+                user._id, 
+                {
+                    $set: {
+                        "profile.coupons": user.profile.coupons + user.numberOfCouponsToSend(),
+                        "profile.sendCoupon":false
+                    }
+                }
+            )
+        })
+    },
+    getUserCount: function() {
+        return Meteor.users.find().count();
+    }
 })

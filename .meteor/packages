@@ -25,7 +25,6 @@ cfs:standard-packages
 cfs:ui
 msavin:mongol
 dburles:collection-helpers
-ephemer:reactive-datatables
 cfs:ejson-file
 mrt:smart-publish
 cfs:graphicsmagick

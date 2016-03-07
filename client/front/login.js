@@ -38,3 +38,7 @@ Template.forgotForm.events({
         })
     }
 })
+
+Template.competition.helpers({
+    loggedIn: ()=> !!Meteor.user()
+});

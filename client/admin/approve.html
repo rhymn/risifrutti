@@ -4,6 +4,8 @@
             <dl class="dl-horizontal">
                 <dt>Kund</dt>
                 <dd>{{receipt.user.profile.name}}</dd>
+                <dt>Epost</dt>
+                <dd>{{#each receipt.user.emails}}{{address}}{{/each}}</dd>
                 <dt>Uppladdad</dt>
                 <dd>{{receipt.date}}</dd>
             </dl>
