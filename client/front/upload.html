@@ -48,6 +48,7 @@
             <div class="row" id="profile-top">
                 <div class="col-md-6 col-md-offset-1">
                     <img src="kort.png" />
+                    <p class="text-center">Just nu finns det {{totalCoupons}} presentkort kvar.</p>
                 </div>
 
                 <div class="col-md-5" id="info-text">
@@ -62,9 +63,9 @@
                             <p> Du har samlat in {{numOfBuys}} Risifrutti. När du har fått 25 st så skickar vi dig
                                 ett presentkort på Intersport.</p>
                             {{#if user.profile.coupons}}
-                            <p>Du har samlat ihop till {{user.profile.coupons}} av 3 möjliga kuponger.</p>
+                            <p>Du har samlat ihop till {{user.profile.coupons}} av 3 möjliga presentkort.</p>
                             {{/if}}
-                            <p>Det finns {{totalCoupons}} kvar att samla.</p>
+                            
                         </div>
                     </div>
                 </div>
