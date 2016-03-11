@@ -12,6 +12,7 @@
             <input class="form-control" id="buys" type="number" placeholder="Antal Risifrutti" min="0" max="10"/>
             <input class="form-control" type="hidden" value="{{receipt._id}}" id="receiptId"/>
             <button class="btn" id="approve">Godkänn och gå till nästa</button>
+            <button class="btn pull-right" id="recompute">Räkna om antal kuponger (nu {{info.coupons}})</button>
         </div>
         <div class="row">
             <div class="col-md-12">

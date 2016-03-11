@@ -1,5 +1,6 @@
 Template.approve.helpers({
-    receipt: () => Receipts.findOne({checked:false})
+    receipt: () => Receipts.findOne({checked:false}),
+    info: ()=>Info.findOne()
 })
 
 Template.approve.events({
@@ -31,5 +32,8 @@ Template.approve.events({
                 }
             });
         }
+    },
+    'click #recompute': function() {
+        Meteor.call('computeCouponTotal');
     }
 })

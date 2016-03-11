@@ -44,5 +44,10 @@ Template.receipts.helpers({
 Template.profile.helpers({
     name: () => Meteor.user().profile.name,
     numOfBuys: numOfBuys,
-    user: () => Meteor.user()
+    user: () => Meteor.user(),
+    totalCoupons: () => {
+        if (Info.findOne() ) {
+            return Math.max(3000 - Info.findOne().coupons,0); 
+        }
+    }
 })

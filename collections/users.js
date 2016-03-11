@@ -1,6 +1,9 @@
 Meteor.users.helpers({
     numberOfCouponsToSend: function() {
         return Math.min(3, Math.floor(this.profile.buys / 25)) - this.profile.coupons;
+    },
+    unsentAndSentCoupons: function() {
+        return Math.min(3, Math.floor(this.profile.buys / 25));
     }
 });
 
@@ -41,7 +44,29 @@ Meteor.users.allow({
         );
     },
     remove: () => false
-})
+});
+
+Info = new Meteor.Collection("info");
+
+
+
+var computeCouponTotal = function() {
+    var sum = 0;
+    Meteor.users.find().fetch().forEach(u => {
+        sum += u.unsentAndSentCoupons();
+    })
+    if (!Info.findOne()) {
+        Info.insert({});     
+    }
+    Info.update(
+        Info.findOne()._id,
+        {
+            $set: {
+                "coupons": sum
+            }
+        }
+    );
+}
 
 Meteor.methods({
     resetCoupons: function() {
@@ -56,9 +81,28 @@ Meteor.methods({
                     }
                 }
             )
-        })
+        });
+        computeCouponTotal();
     },
     getUserCount: function() {
         return Meteor.users.find().count();
+    },
+    computeCouponTotal: function() {
+        let actor = Meteor.users.findOne(this.userId);
+        if (actor.profile.isAdmin){
+            computeCouponTotal();    
+        }
     }
 })
+
+if(Meteor.isServer) {
+    Meteor.publish('info',function() {
+        return Info.find();
+    })
+    Meteor.startup(computeCouponTotal);
+}
+
+
+if (Meteor.isClient) {
+    Meteor.subscribe('info');
+}
