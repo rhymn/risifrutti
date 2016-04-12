@@ -53,7 +53,7 @@ Info = new Meteor.Collection("info");
 var computeCouponTotal = function() {
     var sum = 0;
     Meteor.users.find().fetch().forEach(u => {
-        sum += u.unsentAndSentCoupons();
+        sum += u.unsentAndSentCoupons() || 0;
     })
     if (!Info.findOne()) {
         Info.insert({});     
