@@ -1,0 +1,18 @@
+<template name="view_user">
+    <input id="email"/>
+    <button id="go">Ladda</button>
+     {{#each receipts}}
+            <div>
+                {{#if checked}}Kollat{{else}}Inte kollat {{/if}}
+                <div class="alert-success badge pull-right">
+                {{numberOfBuys}} <i class="glyphicon glyphicon-check"></i>
+                </div>
+                
+                <div class="alert-warning badge">
+                    <i class="glyphicon glyphicon-eye-open"></i>
+                </div>
+                
+                <img src="{{url}}" />
+            </div>
+        {{/each}}        
+</template>

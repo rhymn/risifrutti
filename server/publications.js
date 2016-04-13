@@ -14,6 +14,23 @@ Meteor.smartPublish('myReceipts', function() {
     ];
 })
 
+Meteor.smartPublish('user', function(email) {
+    var adminuser = Meteor.users.findOne(this.userId);
+    if (!adminuser.profile.isAdmin) {
+        throw "not authorized";
+    }
+    
+    var user = Accounts.findUserByEmail(email);
+    this.addDependency(
+        'receipts', 'fileId', function(receipt) {
+            return Images.find(receipt.fileId);
+        }
+    );
+    return [
+        Receipts.find({userId: user._id}),
+    ];
+})
+
 
 Meteor.smartPublish('approve', function() {
     var user = Meteor.users.findOne(this.userId);

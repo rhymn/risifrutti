@@ -41,6 +41,10 @@ Router.route("/skicka-kuponger" , {
     }
 });
 
+Router.route("/admin/user", function() {
+    this.render("view_user");
+});
+
 Router.route("/fragor-och-svar", function() {
     this.render('faq');
 })
